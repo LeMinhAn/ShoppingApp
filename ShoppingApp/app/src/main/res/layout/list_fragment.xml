@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/svParentHomeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="ABC"/>
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
 
-</LinearLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_quangcao1_card1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:focusableInTouchMode="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/background_test1" />
+
+            <ImageView
+                android:id="@+id/iv_quangcao2_card1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_below="@+id/iv_quangcao1_card1"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:scaleType="fitXY"
+                android:src="@drawable/background_test2" />
+
+            <LinearLayout
+                android:id="@+id/ll_gv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/iv_quangcao2_card1"
+                android:orientation="vertical">
+
+                <GridView
+                    android:id="@+id/gv_quangcao3_card1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:columnWidth="100dp"
+                    android:gravity="center"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_gv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ll_gv1"
+                android:orientation="vertical">
+
+                <GridView
+                    android:id="@+id/gv_quangcao4_card1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:columnWidth="100dp"
+                    android:gravity="center"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+</RelativeLayout><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/svParentHomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+                android:id="@+id/observableRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:scrollbars="vertical" />
+
+        </RelativeLayout>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+</RelativeLayout>-->

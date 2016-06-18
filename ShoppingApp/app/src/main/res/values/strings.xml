@@ -5,8 +5,40 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="card_category">DANH MỤC</string>
-    <string name="card_hot">NỔI BẬT</string>
-    <string name="card_top">TOP CÀI ĐẶT</string>
-    <string name="card_new">MỚI NHẤT</string>
+    <string name="card_1">Nổi Bật</string>
+    <string name="card_2">Giá Hủy Diệt</string>
+    <string name="card_3">Các Chương Trình Khuyến Mãi</string>
+    <string name="card_4">Điện Tử</string>
+    <string name="card_5">Nhà Cửa &amp; Đời Sống</string>
+    <string name="card_6">Mẹ &amp; Bé</string>
+    <string name="card_7">Làm Đẹp</string>
+    <string name="card_8">Thời Trang</string>
+    <string name="card_9">Thể Thao &amp; Du Lịch</string>
+    <string name="card_10">Thương Hiệu</string>
+
+    <!-- String for notification -->
+    <string name="try_again">Thử lại</string>
+    <string name="network_unavaliable">Không có kết nối mạng.</string>
+    <string name="service_unavailiable">Dịch vụ không có</string>
+    <string name="notif_title_download">TẢI</string>
+    <string name="notif_title_update">%1$s updates</string>
+    <string name="notif_installing">ĐANG CÀI ĐẶT “%1$s”…</string>
+    <string name="notif_install_successful">%1$s đã được cài đặt, Click để mở</string>
+    <string name="title_downloadx"> Tải %s %%</string>
+    <string name="title_downloading">ĐANG TẢI ...</string>
+    <string name="app_free">MIỄN PHÍ !!!</string>
+    <string name="app_non_free">CÓ PHÍ !!!</string>
+    <string name="error_db_require_init">DatabaseHelper must init() in Application before use</string>
+    <string name="repair_progress_date_format_deafault">yyyy-MM-dd HH:mm:ss</string>
+    <string name="repair_progress_date_format">yyyy-MM-dd</string>
+    <string name="order_date_format">%-Y-%-m-%-d</string>
+    <string name="check_network">check_network</string>
+    <string name="data_error">data_error</string>
+    <string name="auth_error">auth_error</string>
+    <string name="ip_error">ip_error</string>
+    <string name="read_more">XEM THÊM</string>
+    <string name="read_more_2">THÊM</string>
+    <string name="top_install">Top cài đặt</string>
+
+
 </resources>
