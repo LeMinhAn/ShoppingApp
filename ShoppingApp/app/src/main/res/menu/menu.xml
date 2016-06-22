@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/trangchu"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Trang Chủ" />
+    <item
+        android:id="@+id/ungdung"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Ứng Dụng" />
+    <item
+        android:id="@+id/trochoi"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Trò Chơi" />
+    <item
+        android:id="@+id/ebook"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="E-Book" />
+    <item
+        android:id="@+id/phim"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Phim" />
+    <item
+        android:id="@+id/hinhnen"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Hình Nền" />
+    <item
+        android:id="@+id/nhacchuong"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Nhạc Chuông" />
+    <item
+        android:id="@+id/danhdau"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Đánh Dấu" />
+    <item
+        android:id="@+id/lichsucaidat"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Lịch Sử Cài Đặt" />
+    <item
+        android:id="@+id/lienhe"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Liên Hệ" />
+    <item
+        android:id="@+id/caidat"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Cài Đặt" />
+</menu>
